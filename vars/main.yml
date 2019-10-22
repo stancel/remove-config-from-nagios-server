@@ -6,4 +6,3 @@
 
 # The hostname of the machine you are removing from Nagios monitoring. Host names should not have spaces in them.
 remove_config_from_nagios_server_host_name: "my-server"   
-

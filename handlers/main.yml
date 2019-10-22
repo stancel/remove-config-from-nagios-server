@@ -4,6 +4,6 @@
 - name: reload-nagios
   become: true
   become_method: sudo
-  action: service name=nagios state=restarted
-
-
+  service: 
+    name: nagios
+    state: restarted
